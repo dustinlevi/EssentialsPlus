@@ -23,6 +23,7 @@
     <fields>
         <fullName>Main_Address__c</fullName>
         <caseSensitive>false</caseSensitive>
+        <description>A Test</description>
         <externalId>false</externalId>
         <label>Main Address #2</label>
         <length>26</length>
@@ -33,6 +34,7 @@
     </fields>
     <fields>
         <fullName>Contact_Phone__c</fullName>
+        <description>Something new.</description>
         <externalId>false</externalId>
         <label>Contact Phone Number</label>
         <required>false</required>
