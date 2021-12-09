@@ -12,6 +12,7 @@
     </fields>
     <fields>
         <fullName>Industry__c</fullName>
+        <description>something really new</description>
         <externalId>false</externalId>
         <label>Industry</label>
         <length>200</length>
@@ -22,7 +23,7 @@
     </fields>
     <fields>
         <fullName>Main_Address_3__c</fullName>
-        <description>something new. just changed it.</description>
+        <description>something really new</description>
         <externalId>false</externalId>
         <label>Main Address #3</label>
         <length>26</length>
