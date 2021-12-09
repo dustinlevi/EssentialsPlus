@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
+        <fullName>Asset_Type_2__c</fullName>
+        <description>Here ya go.</description>
+        <externalId>false</externalId>
+        <label>Asset Type #2</label>
+        <length>200</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Main_Office__c</fullName>
         <displayLocationInDecimal>false</displayLocationInDecimal>
         <externalId>false</externalId>
