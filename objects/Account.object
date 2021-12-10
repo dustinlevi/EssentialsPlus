@@ -2,6 +2,7 @@
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
         <fullName>Preferred_Contact_Method__c</fullName>
+        <description>something new</description>
         <externalId>false</externalId>
         <label>Preferred Contact Method</label>
         <length>200</length>
