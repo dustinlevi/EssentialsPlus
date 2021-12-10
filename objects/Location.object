@@ -13,6 +13,7 @@
     </fields>
     <fields>
         <fullName>Main_Office__c</fullName>
+        <description>Something brand new</description>
         <displayLocationInDecimal>false</displayLocationInDecimal>
         <externalId>false</externalId>
         <label>Main Office</label>
