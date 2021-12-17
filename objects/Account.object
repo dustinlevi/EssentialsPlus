@@ -12,7 +12,7 @@
     </fields>
     <fields>
         <fullName>Preferred_Contact_Method__c</fullName>
-        <description>something new</description>
+        <description>a new phone number for the prospect.</description>
         <externalId>false</externalId>
         <label>Preferred Contact Method</label>
         <length>200</length>
@@ -34,7 +34,7 @@
     </fields>
     <fields>
         <fullName>Main_Address_3__c</fullName>
-        <description>something added.</description>
+        <description>A new description</description>
         <externalId>false</externalId>
         <label>Main Address #3</label>
         <length>26</length>
@@ -57,7 +57,7 @@
     </fields>
     <fields>
         <fullName>Contact_Phone__c</fullName>
-        <description>Something new and neat.</description>
+        <description>A new description</description>
         <externalId>false</externalId>
         <label>Contact Phone Number</label>
         <required>false</required>
