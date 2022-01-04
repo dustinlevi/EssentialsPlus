@@ -303,7 +303,7 @@
     <fields>
         <fullName>Main_Address__c</fullName>
         <caseSensitive>false</caseSensitive>
-        <description>The 2nd main address.</description>
+        <description>Something different.</description>
         <externalId>false</externalId>
         <label>Main Address #2</label>
         <length>26</length>
