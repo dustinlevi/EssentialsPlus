@@ -248,6 +248,16 @@
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <fields>
+        <fullName>Contact_Phone_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Contact Phone Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Account_Number_2__c</fullName>
         <externalId>false</externalId>
         <label>Account Number #2</label>
