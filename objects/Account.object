@@ -43,7 +43,7 @@
     </fields>
     <fields>
         <fullName>Main_Address_3__c</fullName>
-        <description>something new!</description>
+        <description>an addition of some sorts.</description>
         <externalId>false</externalId>
         <label>Main Address #3</label>
         <length>26</length>
@@ -55,7 +55,7 @@
     <fields>
         <fullName>Main_Address__c</fullName>
         <caseSensitive>false</caseSensitive>
-        <description>The 2nd main address.</description>
+        <description>a brand new address.</description>
         <externalId>false</externalId>
         <label>Main Address #2</label>
         <length>26</length>
