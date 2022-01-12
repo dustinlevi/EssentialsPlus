@@ -248,6 +248,15 @@
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <fields>
+        <fullName>Phone_2__c</fullName>
+        <description>A new phone number</description>
+        <externalId>false</externalId>
+        <label>Phone #2</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
         <fullName>Preferred_Contact_Method_2__c</fullName>
         <description>Some new contact info</description>
         <externalId>false</externalId>
@@ -278,7 +287,7 @@
     </fields>
     <fields>
         <fullName>Preferred_Email__c</fullName>
-        <description>The email of the prospect.</description>
+        <description>the prospect&apos;s new email.</description>
         <externalId>false</externalId>
         <label>Preferred Email</label>
         <required>false</required>
