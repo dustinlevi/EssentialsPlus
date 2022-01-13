@@ -248,6 +248,15 @@
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <fields>
+        <fullName>Company_Website__c</fullName>
+        <description>The company site</description>
+        <externalId>false</externalId>
+        <label>Company Website</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
         <fullName>Phone_2__c</fullName>
         <description>A new phone number</description>
         <externalId>false</externalId>
@@ -342,7 +351,7 @@
     </fields>
     <fields>
         <fullName>Contact_Phone__c</fullName>
-        <description>The prospect&apos;s new phone number.</description>
+        <description>Cell phones are now callable.</description>
         <externalId>false</externalId>
         <label>Contact Phone Number</label>
         <required>false</required>
