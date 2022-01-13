@@ -248,6 +248,14 @@
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <fields>
+        <fullName>Asset_Type_3__c</fullName>
+        <externalId>false</externalId>
+        <label>Asset Type #3</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
         <fullName>Company_Website__c</fullName>
         <description>The company site</description>
         <externalId>false</externalId>
@@ -267,7 +275,7 @@
     </fields>
     <fields>
         <fullName>Preferred_Contact_Method_2__c</fullName>
-        <description>Some new contact info</description>
+        <description>Something different</description>
         <externalId>false</externalId>
         <label>Preferred Contact Method #2</label>
         <required>false</required>
