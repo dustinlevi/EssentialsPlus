@@ -248,6 +248,14 @@
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <fields>
+        <fullName>Account_Owner__c</fullName>
+        <externalId>false</externalId>
+        <label>Account Owner</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
         <fullName>Asset_Type_3__c</fullName>
         <externalId>false</externalId>
         <label>Asset Type #3</label>
@@ -266,7 +274,7 @@
     </fields>
     <fields>
         <fullName>Phone_2__c</fullName>
-        <description>A new phone number</description>
+        <description>the client&apos;s 2nd phone number</description>
         <externalId>false</externalId>
         <label>Phone #2</label>
         <required>false</required>
