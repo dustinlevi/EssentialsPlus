@@ -12,4 +12,8 @@
         <readable>true</readable>
     </fieldPermissions>
     <userLicense>Salesforce</userLicense>
+    <classAccesses>
+        <apexClass>AccountOperations</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
 </Profile>

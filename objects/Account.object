@@ -275,6 +275,7 @@
     </fields>
     <fields>
         <fullName>Asset_Type_3__c</fullName>
+        <description>A field for your assets.</description>
         <externalId>false</externalId>
         <label>Asset Type #3</label>
         <required>false</required>
