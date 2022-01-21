@@ -248,6 +248,24 @@
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <fields>
+        <fullName>Company_Website_2__c</fullName>
+        <externalId>false</externalId>
+        <label>Company Website #2</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>No_of_Sales_Reps__c</fullName>
+        <externalId>false</externalId>
+        <label>No. of Sales Reps</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
         <fullName>Shipping_Address_2__c</fullName>
         <externalId>false</externalId>
         <label>Shipping Address #2</label>
