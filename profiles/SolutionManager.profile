@@ -3,8 +3,17 @@
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.Industry__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.Preferred_Contact_Method_2__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <userLicense>Salesforce</userLicense>
+    <classAccesses>
+        <apexClass>AccountOperations</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
 </Profile>
