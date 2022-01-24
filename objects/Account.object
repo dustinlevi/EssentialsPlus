@@ -248,6 +248,14 @@
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <fields>
+        <fullName>Billing_Address__c</fullName>
+        <externalId>false</externalId>
+        <label>Billing Address</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
         <fullName>Company_Website_2__c</fullName>
         <externalId>false</externalId>
         <label>Company Website #2</label>
@@ -339,6 +347,7 @@
     </fields>
     <fields>
         <fullName>Account_Number_2__c</fullName>
+        <description>A new entry.</description>
         <externalId>false</externalId>
         <label>Account Number #2</label>
         <length>255</length>
