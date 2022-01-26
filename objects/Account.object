@@ -1,13 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
+        <fullName>Account_Source__c</fullName>
+        <externalId>false</externalId>
+        <label>Account Source</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
         <fullName>Asset_Type_3__c</fullName>
-        <description>A field for your assets.</description>
         <externalId>false</externalId>
         <label>Asset Type #3</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
-        <type>TextArea</type>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>100</fullName>
+                    <default>false</default>
+                    <label>100</label>
+                </value>
+                <value>
+                    <fullName>200</fullName>
+                    <default>false</default>
+                    <label>200</label>
+                </value>
+                <value>
+                    <fullName>500</fullName>
+                    <default>false</default>
+                    <label>500</label>
+                </value>
+                <value>
+                    <fullName>1000</fullName>
+                    <default>false</default>
+                    <label>1000</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <fields>
         <fullName>Employee_Count__c</fullName>
