@@ -248,6 +248,14 @@
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <fields>
+        <fullName>Phone_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Phone Number</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Phone</type>
+    </fields>
+    <fields>
         <fullName>Annual_Revenue__c</fullName>
         <externalId>false</externalId>
         <label>Annual Revenue</label>
@@ -277,6 +285,7 @@
     </fields>
     <fields>
         <fullName>Company_Website_2__c</fullName>
+        <description>The 2nd website</description>
         <externalId>false</externalId>
         <label>Company Website #2</label>
         <length>255</length>
