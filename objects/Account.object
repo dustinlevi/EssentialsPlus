@@ -350,6 +350,7 @@
     </fields>
     <fields>
         <fullName>Asset_Type_3__c</fullName>
+        <description>A new description</description>
         <externalId>false</externalId>
         <label>Asset Type #3</label>
         <required>false</required>
@@ -464,7 +465,7 @@
     </fields>
     <fields>
         <fullName>Main_Address_3__c</fullName>
-        <description>an addition of some sorts.</description>
+        <description>the company&apos;s other office location.</description>
         <externalId>false</externalId>
         <label>Main Address #3</label>
         <length>26</length>
