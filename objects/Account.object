@@ -248,6 +248,14 @@
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <fields>
+        <fullName>Billing_Address_3__c</fullName>
+        <externalId>false</externalId>
+        <label>Billing Address #3</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
         <fullName>Asset_Type__c</fullName>
         <externalId>false</externalId>
         <label>Asset Type</label>
@@ -394,7 +402,7 @@
     </fields>
     <fields>
         <fullName>Phone_2__c</fullName>
-        <description>the client&apos;s 2nd phone number</description>
+        <description>the 2nd phone number for a company.</description>
         <externalId>false</externalId>
         <label>Phone #2</label>
         <required>false</required>
