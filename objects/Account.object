@@ -323,6 +323,7 @@
     </fields>
     <fields>
         <fullName>No_of_Sales_Reps__c</fullName>
+        <description>the amount of sales reps a company has.</description>
         <externalId>false</externalId>
         <label>No. of Sales Reps</label>
         <required>false</required>
@@ -473,7 +474,7 @@
     </fields>
     <fields>
         <fullName>Main_Address_3__c</fullName>
-        <description>the company&apos;s other office location.</description>
+        <description>the 3rd location</description>
         <externalId>false</externalId>
         <label>Main Address #3</label>
         <length>26</length>
