@@ -248,6 +248,16 @@
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <fields>
+        <fullName>Account_Number_3__c</fullName>
+        <externalId>false</externalId>
+        <label>Account Number #3</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Billing_Address_3__c</fullName>
         <externalId>false</externalId>
         <label>Billing Address #3</label>
@@ -486,7 +496,7 @@
     <fields>
         <fullName>Main_Address__c</fullName>
         <caseSensitive>false</caseSensitive>
-        <description>some new information</description>
+        <description>the 2nd address for the 2nd office</description>
         <externalId>false</externalId>
         <label>Main Address #2</label>
         <length>26</length>
