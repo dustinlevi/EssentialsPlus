@@ -72,12 +72,14 @@
     </fields>
     <fields>
         <fullName>Employee_Count__c</fullName>
+        <description>The number of employees</description>
         <externalId>false</externalId>
         <label>Employee Count</label>
-        <length>200</length>
+        <precision>18</precision>
         <required>false</required>
+        <scale>0</scale>
         <trackFeedHistory>false</trackFeedHistory>
-        <type>Text</type>
+        <type>Number</type>
         <unique>false</unique>
     </fields>
     <fields>
