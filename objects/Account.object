@@ -333,7 +333,7 @@
     </fields>
     <fields>
         <fullName>No_of_Sales_Reps__c</fullName>
-        <description>the amount of sales reps a company has.</description>
+        <description>the company&apos;s sales rep count</description>
         <externalId>false</externalId>
         <label>No. of Sales Reps</label>
         <required>false</required>
