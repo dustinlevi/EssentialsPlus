@@ -413,7 +413,7 @@
     </fields>
     <fields>
         <fullName>Phone_2__c</fullName>
-        <description>the 2nd phone number for a company.</description>
+        <description>phone number for the 2nd office location</description>
         <externalId>false</externalId>
         <label>Phone #2</label>
         <required>false</required>
@@ -441,14 +441,11 @@
     </fields>
     <fields>
         <fullName>Account_Number_2__c</fullName>
-        <description>A new entry.</description>
         <externalId>false</externalId>
         <label>Account Number #2</label>
-        <length>255</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
-        <type>Text</type>
-        <unique>false</unique>
+        <type>TextArea</type>
     </fields>
     <fields>
         <fullName>Preferred_Email__c</fullName>
