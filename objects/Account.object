@@ -350,6 +350,7 @@
     </fields>
     <fields>
         <fullName>Employee_Count__c</fullName>
+        <description>The number of employees</description>
         <externalId>false</externalId>
         <label>Employee Count</label>
         <precision>18</precision>
