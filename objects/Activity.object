@@ -122,6 +122,13 @@
     </searchLayouts>
     <sharingModel>Private</sharingModel>
     <fields>
+        <fullName>Account_Owner__c</fullName>
+        <externalId>false</externalId>
+        <label>Account Owner</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
         <fullName>Company_Website__c</fullName>
         <externalId>false</externalId>
         <label>Company Website</label>
