@@ -122,6 +122,13 @@
     </searchLayouts>
     <sharingModel>Private</sharingModel>
     <fields>
+        <fullName>Company_Website__c</fullName>
+        <externalId>false</externalId>
+        <label>Company Website</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
         <fullName>Asset_Type__c</fullName>
         <externalId>false</externalId>
         <label>Asset Type</label>
