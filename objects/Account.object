@@ -148,7 +148,7 @@
     </fields>
     <fields>
         <fullName>Main_Address_3__c</fullName>
-        <description>the 3rd location</description>
+        <description>the third office address</description>
         <externalId>false</externalId>
         <label>Main Address #3</label>
         <length>26</length>
