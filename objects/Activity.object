@@ -137,6 +137,7 @@
     </fields>
     <fields>
         <fullName>Asset_Type__c</fullName>
+        <description>The type of asset</description>
         <externalId>false</externalId>
         <label>Asset Type</label>
         <required>false</required>
