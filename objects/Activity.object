@@ -122,7 +122,15 @@
     </searchLayouts>
     <sharingModel>Private</sharingModel>
     <fields>
+        <fullName>Company_Website_2__c</fullName>
+        <externalId>false</externalId>
+        <label>Company Website #2</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
         <fullName>Employee_Count__c</fullName>
+        <description>A count of employees</description>
         <externalId>false</externalId>
         <label>Employee Count</label>
         <required>false</required>
