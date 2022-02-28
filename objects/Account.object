@@ -471,7 +471,7 @@
     </fields>
     <fields>
         <fullName>Industry__c</fullName>
-        <description>The types of industries we support.</description>
+        <description>The industries we support</description>
         <externalId>false</externalId>
         <label>Industry</label>
         <length>200</length>
