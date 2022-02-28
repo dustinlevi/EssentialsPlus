@@ -122,6 +122,20 @@
     </searchLayouts>
     <sharingModel>Private</sharingModel>
     <fields>
+        <fullName>Account_Source__c</fullName>
+        <externalId>false</externalId>
+        <label>Account Source</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Billing_Address__c</fullName>
+        <externalId>false</externalId>
+        <label>Billing Address</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
         <fullName>Industry__c</fullName>
         <description>The industries of our customer base</description>
         <externalId>false</externalId>
