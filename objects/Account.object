@@ -482,7 +482,7 @@
     </fields>
     <fields>
         <fullName>Main_Address_3__c</fullName>
-        <description>the third office address</description>
+        <description>the 3rd office</description>
         <externalId>false</externalId>
         <label>Main Address #3</label>
         <length>26</length>
