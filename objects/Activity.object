@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
+        <fullName>Industry__c</fullName>
+        <description>The industries of our customer base</description>
+        <externalId>false</externalId>
+        <label>Industry</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Parent_Account__c</fullName>
+        <externalId>false</externalId>
+        <label>Parent Account</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
         <fullName>Company_Website_2__c</fullName>
         <externalId>false</externalId>
         <label>Company Website #2</label>
