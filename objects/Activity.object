@@ -122,6 +122,20 @@
     </searchLayouts>
     <sharingModel>Private</sharingModel>
     <fields>
+        <fullName>Lead_Last_Active__c</fullName>
+        <externalId>false</externalId>
+        <label>Lead - Last Active</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Shipping_Address__c</fullName>
+        <externalId>false</externalId>
+        <label>Shipping Address</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
         <fullName>Company_Website_2__c</fullName>
         <externalId>false</externalId>
         <label>Company Website #2</label>
@@ -145,6 +159,7 @@
     </fields>
     <fields>
         <fullName>Account_Owner__c</fullName>
+        <description>The owner of this account</description>
         <externalId>false</externalId>
         <label>Account Owner</label>
         <required>false</required>
