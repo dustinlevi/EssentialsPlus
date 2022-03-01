@@ -122,6 +122,16 @@
     </searchLayouts>
     <sharingModel>Private</sharingModel>
     <fields>
+        <fullName>No_of_Sales_Reps__c</fullName>
+        <externalId>false</externalId>
+        <label>No. of Sales Reps</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Industry__c</fullName>
         <description>The industries of our customer base</description>
         <externalId>false</externalId>
