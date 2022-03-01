@@ -122,6 +122,20 @@
     </searchLayouts>
     <sharingModel>Private</sharingModel>
     <fields>
+        <fullName>Ownership__c</fullName>
+        <externalId>false</externalId>
+        <label>Ownership</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>VIP__c</fullName>
+        <externalId>false</externalId>
+        <label>VIP</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
         <fullName>No_of_Sales_Reps__c</fullName>
         <externalId>false</externalId>
         <label>No. of Sales Reps</label>
