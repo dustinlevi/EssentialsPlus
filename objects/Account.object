@@ -11,6 +11,7 @@
     </fields>
     <fields>
         <fullName>Asset_Type__c</fullName>
+        <description>Type of asset</description>
         <externalId>false</externalId>
         <label>Asset Type</label>
         <length>32768</length>
@@ -110,7 +111,7 @@
     </fields>
     <fields>
         <fullName>Company_Website__c</fullName>
-        <description>The company site</description>
+        <description>The official website for the company</description>
         <externalId>false</externalId>
         <label>Company Website</label>
         <required>false</required>
