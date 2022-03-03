@@ -31,6 +31,7 @@
     </fields>
     <fields>
         <fullName>Account_Source__c</fullName>
+        <description>the source of the account</description>
         <externalId>false</externalId>
         <label>Account Source</label>
         <required>false</required>
@@ -39,6 +40,7 @@
     </fields>
     <fields>
         <fullName>Asset_Type_3__c</fullName>
+        <description>type of asset</description>
         <externalId>false</externalId>
         <label>Asset Type #3</label>
         <required>false</required>
