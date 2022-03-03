@@ -9,6 +9,7 @@
     </fields>
     <fields>
         <fullName>No_of_Sales_Reps__c</fullName>
+        <description>number of sales reps</description>
         <externalId>false</externalId>
         <label>No. of Sales Reps</label>
         <precision>18</precision>
