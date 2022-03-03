@@ -84,7 +84,7 @@
             <label>Stage does not equal qualifying or prospecting</label>
         </rules>
     </decisions>
-    <interviewLabel>Test_Automation-1_InterviewLabel</interviewLabel>
+    <interviewLabel>Test_Automation-2_InterviewLabel</interviewLabel>
     <label>Test Automation</label>
     <processMetadataValues>
         <name>ObjectType</name>
@@ -200,7 +200,7 @@
             <field>StageName</field>
             <operator>EqualTo</operator>
             <value>
-                <stringValue>Value Proposition</stringValue>
+                <stringValue>Proposal/Price Quote</stringValue>
             </value>
         </filters>
         <inputAssignments>
@@ -236,7 +236,7 @@
             </processMetadataValues>
             <field>Amount</field>
             <value>
-                <numberValue>100000.0</numberValue>
+                <numberValue>200000.0</numberValue>
             </value>
         </inputAssignments>
         <object>Opportunity</object>
