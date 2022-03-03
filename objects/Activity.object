@@ -122,6 +122,13 @@
     </searchLayouts>
     <sharingModel>Private</sharingModel>
     <fields>
+        <fullName>Git_Repository__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Git Repository?</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>Sales_Enablement_Tool__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
@@ -222,7 +229,7 @@
     </fields>
     <fields>
         <fullName>Company_Website__c</fullName>
-        <description>a new description</description>
+        <description>the website of the company</description>
         <externalId>false</externalId>
         <label>Company Website</label>
         <required>false</required>
