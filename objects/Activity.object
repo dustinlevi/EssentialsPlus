@@ -122,6 +122,13 @@
     </searchLayouts>
     <sharingModel>Private</sharingModel>
     <fields>
+        <fullName>Sales_Enablement_Tool__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Sales Enablement Tool?</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>Preferred_Email__c</fullName>
         <externalId>false</externalId>
         <label>Preferred Email</label>
