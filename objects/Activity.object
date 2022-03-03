@@ -137,6 +137,7 @@
     </fields>
     <fields>
         <fullName>Preferred_Email__c</fullName>
+        <description>the prospect&apos;s email</description>
         <externalId>false</externalId>
         <label>Preferred Email</label>
         <length>200</length>
@@ -193,6 +194,7 @@
     </fields>
     <fields>
         <fullName>Shipping_Address__c</fullName>
+        <description>the company&apos;s shipping address.</description>
         <externalId>false</externalId>
         <label>Shipping Address</label>
         <required>false</required>
