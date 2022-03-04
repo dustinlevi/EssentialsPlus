@@ -147,6 +147,7 @@
     </fields>
     <fields>
         <fullName>Ownership__c</fullName>
+        <description>a new description</description>
         <externalId>false</externalId>
         <label>Ownership</label>
         <required>false</required>
@@ -154,6 +155,7 @@
     </fields>
     <fields>
         <fullName>VIP__c</fullName>
+        <description>a new description</description>
         <externalId>false</externalId>
         <label>VIP</label>
         <required>false</required>
