@@ -42,49 +42,18 @@
                     </value>
                 </processMetadataValues>
                 <leftValueReference>myVariable_current.StageName</leftValueReference>
-                <operator>NotEqualTo</operator>
+                <operator>EqualTo</operator>
                 <rightValue>
-                    <stringValue>Prospecting</stringValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <processMetadataValues>
-                    <name>inputDataType</name>
-                    <value>
-                        <stringValue>Picklist</stringValue>
-                    </value>
-                </processMetadataValues>
-                <processMetadataValues>
-                    <name>leftHandSideType</name>
-                    <value>
-                        <stringValue>Picklist</stringValue>
-                    </value>
-                </processMetadataValues>
-                <processMetadataValues>
-                    <name>operatorDataType</name>
-                    <value>
-                        <stringValue>String</stringValue>
-                    </value>
-                </processMetadataValues>
-                <processMetadataValues>
-                    <name>rightHandSideType</name>
-                    <value>
-                        <stringValue>Picklist</stringValue>
-                    </value>
-                </processMetadataValues>
-                <leftValueReference>myVariable_current.StageName</leftValueReference>
-                <operator>NotEqualTo</operator>
-                <rightValue>
-                    <stringValue>Qualification</stringValue>
+                    <stringValue>Proposal/Price Quote</stringValue>
                 </rightValue>
             </conditions>
             <connector>
                 <targetReference>myRule_1_A1</targetReference>
             </connector>
-            <label>Stage does not equal qualifying or prospecting</label>
+            <label>Stage does equal Proposal Price Quote</label>
         </rules>
     </decisions>
-    <interviewLabel>Test_Automation-2_InterviewLabel</interviewLabel>
+    <interviewLabel>Test_Automation-3_InterviewLabel</interviewLabel>
     <label>Test Automation</label>
     <processMetadataValues>
         <name>ObjectType</name>
@@ -207,7 +176,7 @@
             <processMetadataValues>
                 <name>dataType</name>
                 <value>
-                    <stringValue>Currency</stringValue>
+                    <stringValue>Number</stringValue>
                 </value>
             </processMetadataValues>
             <processMetadataValues>
@@ -219,7 +188,7 @@
             <processMetadataValues>
                 <name>leftHandSideLabel</name>
                 <value>
-                    <stringValue>Amount</stringValue>
+                    <stringValue>Probability (%)</stringValue>
                 </value>
             </processMetadataValues>
             <processMetadataValues>
@@ -231,12 +200,12 @@
             <processMetadataValues>
                 <name>rightHandSideType</name>
                 <value>
-                    <stringValue>Currency</stringValue>
+                    <stringValue>Number</stringValue>
                 </value>
             </processMetadataValues>
-            <field>Amount</field>
+            <field>Probability</field>
             <value>
-                <numberValue>200000.0</numberValue>
+                <numberValue>75.0</numberValue>
             </value>
         </inputAssignments>
         <object>Opportunity</object>
