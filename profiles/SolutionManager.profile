@@ -3,6 +3,16 @@
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Event.Ownership__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Task.Ownership__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.Main_Address_3__c</field>
         <readable>true</readable>
     </fieldPermissions>
