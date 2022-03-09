@@ -226,6 +226,7 @@
     </fields>
     <fields>
         <fullName>Preferred_Contact_Method__c</fullName>
+        <description>the contact info of the prospect</description>
         <externalId>false</externalId>
         <label>Preferred Contact Method</label>
         <required>false</required>
@@ -241,7 +242,7 @@
     </fields>
     <fields>
         <fullName>Company_Website__c</fullName>
-        <description>the website of the company</description>
+        <description>website of the prospect</description>
         <externalId>false</externalId>
         <label>Company Website</label>
         <required>false</required>
