@@ -174,7 +174,7 @@
     </fields>
     <fields>
         <fullName>Industry__c</fullName>
-        <description>The industries of our customer base</description>
+        <description>industry types</description>
         <externalId>false</externalId>
         <label>Industry</label>
         <required>false</required>
