@@ -122,6 +122,13 @@
     </searchLayouts>
     <sharingModel>Private</sharingModel>
     <fields>
+        <fullName>Account_Number_2__c</fullName>
+        <externalId>false</externalId>
+        <label>Account Number #2</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
         <fullName>Git_Repository__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
@@ -174,7 +181,7 @@
     </fields>
     <fields>
         <fullName>Industry__c</fullName>
-        <description>industry types</description>
+        <description>types of industries</description>
         <externalId>false</externalId>
         <label>Industry</label>
         <required>false</required>
