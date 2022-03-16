@@ -248,6 +248,14 @@
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <fields>
+        <fullName>Email_Client__c</fullName>
+        <externalId>false</externalId>
+        <label>Email Client</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
         <fullName>Account_Number_3__c</fullName>
         <externalId>false</externalId>
         <label>Account Number #3</label>

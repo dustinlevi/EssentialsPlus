@@ -181,7 +181,7 @@
     </fields>
     <fields>
         <fullName>Industry__c</fullName>
-        <description>types of industries</description>
+        <description>industry types</description>
         <externalId>false</externalId>
         <label>Industry</label>
         <required>false</required>
