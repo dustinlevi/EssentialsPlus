@@ -1,5 +1,148 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ComposeGmail</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ComposeGmail</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ComposeGmail</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>LogCall</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>LogCall</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>LogCall</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MailMerge</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MailMerge</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MailMerge</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SendEmail</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SendEmail</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SendEmail</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewAll</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewAll</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewAll</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Account_Number_2__c</fullName>
+        <externalId>false</externalId>
+        <label>Account Number #2</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Account_Owner__c</fullName>
+        <description>The owner of this account</description>
+        <externalId>false</externalId>
+        <label>Account Owner</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Account_Source__c</fullName>
+        <externalId>false</externalId>
+        <label>Account Source</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Asset_Type__c</fullName>
+        <description>the different assets we support</description>
+        <externalId>false</externalId>
+        <label>Asset Type</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
     <fields>
         <fullName>Billing_Address__c</fullName>
         <externalId>false</externalId>
@@ -8,27 +151,61 @@
         <type>TextArea</type>
     </fields>
     <fields>
-        <fullName>Ownership__c</fullName>
-        <description>something different</description>
+        <fullName>Company_Website_2__c</fullName>
         <externalId>false</externalId>
-        <label>Ownership</label>
+        <label>Company Website #2</label>
         <required>false</required>
         <type>TextArea</type>
     </fields>
     <fields>
-        <fullName>VIP__c</fullName>
-        <description>a new description</description>
+        <fullName>Company_Website__c</fullName>
+        <description>a new addition</description>
         <externalId>false</externalId>
-        <label>VIP</label>
+        <label>Company Website</label>
         <required>false</required>
         <type>TextArea</type>
     </fields>
     <fields>
-        <fullName>Sales_Enablement_Tool__c</fullName>
+        <fullName>Employee_Count__c</fullName>
+        <description>A count of employees</description>
+        <externalId>false</externalId>
+        <label>Employee Count</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Git_Repository__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
-        <label>Sales Enablement Tool?</label>
+        <label>Git Repository?</label>
         <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Industry__c</fullName>
+        <description>industry types</description>
+        <externalId>false</externalId>
+        <label>Industry</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Lead_Last_Active__c</fullName>
+        <externalId>false</externalId>
+        <label>Lead - Last Active</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Lead__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>a new description</description>
+        <externalId>false</externalId>
+        <label>Lead - Last Active</label>
+        <referenceTo>Lead</referenceTo>
+        <relationshipLabel>Activities</relationshipLabel>
+        <relationshipName>Activities</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>No_of_Sales_Reps__c</fullName>
@@ -42,10 +219,10 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Industry__c</fullName>
-        <description>The industries of our customer base</description>
+        <fullName>Ownership__c</fullName>
+        <description>something different</description>
         <externalId>false</externalId>
-        <label>Industry</label>
+        <label>Ownership</label>
         <required>false</required>
         <type>TextArea</type>
     </fields>
@@ -57,58 +234,53 @@
         <type>TextArea</type>
     </fields>
     <fields>
-        <fullName>Company_Website_2__c</fullName>
-        <externalId>false</externalId>
-        <label>Company Website #2</label>
-        <required>false</required>
-        <type>TextArea</type>
-    </fields>
-    <fields>
-        <fullName>Employee_Count__c</fullName>
-        <description>A count of employees</description>
-        <externalId>false</externalId>
-        <label>Employee Count</label>
-        <required>false</required>
-        <type>TextArea</type>
-    </fields>
-    <fields>
-        <fullName>Company_Website__c</fullName>
-        <description>a new description</description>
-        <externalId>false</externalId>
-        <label>Company Website</label>
-        <required>false</required>
-        <type>TextArea</type>
-    </fields>
-    <fields>
         <fullName>Preferred_Contact_Method__c</fullName>
+        <description>prospect contact info</description>
         <externalId>false</externalId>
         <label>Preferred Contact Method</label>
         <required>false</required>
         <type>TextArea</type>
     </fields>
     <fields>
-        <fullName>Account_Owner__c</fullName>
+        <fullName>Preferred_Email__c</fullName>
+        <description>the preferred email of the prospect</description>
         <externalId>false</externalId>
-        <label>Account Owner</label>
+        <label>Preferred Email</label>
+        <length>200</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sales_Enablement_Tool__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>the type of SE tool.</description>
+        <externalId>false</externalId>
+        <label>Sales Enablement Tool?</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Shipping_Address__c</fullName>
+        <description>the shipping address of the company.</description>
+        <externalId>false</externalId>
+        <label>Shipping Address</label>
         <required>false</required>
         <type>TextArea</type>
     </fields>
     <fields>
-        <fullName>Asset_Type__c</fullName>
+        <fullName>VIP__c</fullName>
+        <description>adding some different</description>
         <externalId>false</externalId>
-        <label>Asset Type</label>
+        <label>VIP</label>
         <required>false</required>
         <type>TextArea</type>
     </fields>
-    <fields>
-        <fullName>Lead__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
-        <label>Lead - Last Active</label>
-        <referenceTo>Lead</referenceTo>
-        <relationshipLabel>Activities</relationshipLabel>
-        <relationshipName>Activities</relationshipName>
-        <required>false</required>
-        <type>Lookup</type>
-    </fields>
+    <searchLayouts>
+        <searchResultsAdditionalFields>TASK.SUBJECT</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TASK.WHO_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TASK.WHAT_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TASK.DUE_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
 </CustomObject>
