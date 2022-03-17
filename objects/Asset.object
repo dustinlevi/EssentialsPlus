@@ -126,6 +126,16 @@
     </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
     <fields>
+        <fullName>Preferred_Contact_Method__c</fullName>
+        <externalId>false</externalId>
+        <label>Preferred Contact Method</label>
+        <length>200</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Asset_Type_2__c</fullName>
         <externalId>false</externalId>
         <label>Asset Type #2</label>

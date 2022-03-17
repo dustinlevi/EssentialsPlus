@@ -248,6 +248,14 @@
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <fields>
+        <fullName>Asset_Type_4__c</fullName>
+        <externalId>false</externalId>
+        <label>Asset Type #4</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
         <fullName>Sales_Enablement_Tool__c</fullName>
         <externalId>false</externalId>
         <label>Sales Enablement Tool?</label>
