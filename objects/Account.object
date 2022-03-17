@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
+        <fullName>Email_Client__c</fullName>
+        <description>a new description</description>
+        <externalId>false</externalId>
+        <label>Email Client</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
         <fullName>Sales_Enablement_Tool__c</fullName>
         <externalId>false</externalId>
         <label>Sales Enablement Tool?</label>
