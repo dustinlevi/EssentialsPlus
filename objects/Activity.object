@@ -1,5 +1,170 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ComposeGmail</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ComposeGmail</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ComposeGmail</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>LogCall</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>LogCall</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>LogCall</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MailMerge</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MailMerge</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MailMerge</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SendEmail</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SendEmail</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SendEmail</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewAll</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewAll</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewAll</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Account_Owner__c</fullName>
+        <externalId>false</externalId>
+        <label>Account Owner</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Asset_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Asset Type</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Billing_Address__c</fullName>
+        <externalId>false</externalId>
+        <label>Billing Address</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Company_Website_2__c</fullName>
+        <externalId>false</externalId>
+        <label>Company Website #2</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Company_Website__c</fullName>
+        <description>a new description</description>
+        <externalId>false</externalId>
+        <label>Company Website</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Employee_Count__c</fullName>
+        <description>A count of employees</description>
+        <externalId>false</externalId>
+        <label>Employee Count</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Industry__c</fullName>
+        <description>industry types</description>
+        <externalId>false</externalId>
+        <label>Industry</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
     <fields>
         <fullName>Lead__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
@@ -11,4 +176,60 @@
         <required>false</required>
         <type>Lookup</type>
     </fields>
+    <fields>
+        <fullName>No_of_Sales_Reps__c</fullName>
+        <description>number of sales reps</description>
+        <externalId>false</externalId>
+        <label>No. of Sales Reps</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ownership__c</fullName>
+        <description>something different</description>
+        <externalId>false</externalId>
+        <label>Ownership</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Parent_Account__c</fullName>
+        <externalId>false</externalId>
+        <label>Parent Account</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Preferred_Contact_Method__c</fullName>
+        <externalId>false</externalId>
+        <label>Preferred Contact Method</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Sales_Enablement_Tool__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Sales Enablement Tool?</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>VIP__c</fullName>
+        <description>a new description</description>
+        <externalId>false</externalId>
+        <label>VIP</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <searchLayouts>
+        <searchResultsAdditionalFields>TASK.SUBJECT</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TASK.WHO_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TASK.WHAT_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TASK.DUE_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
 </CustomObject>
