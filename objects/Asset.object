@@ -127,6 +127,7 @@
     <sharingModel>ControlledByParent</sharingModel>
     <fields>
         <fullName>Preferred_Contact_Method__c</fullName>
+        <description>new description</description>
         <externalId>false</externalId>
         <label>Preferred Contact Method</label>
         <length>200</length>
@@ -137,6 +138,7 @@
     </fields>
     <fields>
         <fullName>Asset_Type_2__c</fullName>
+        <description>new description</description>
         <externalId>false</externalId>
         <label>Asset Type #2</label>
         <required>false</required>
