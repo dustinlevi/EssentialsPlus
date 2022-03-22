@@ -210,7 +210,7 @@
     </fields>
     <fields>
         <fullName>Shipping_Address__c</fullName>
-        <description>the company&apos;s shipping address.</description>
+        <description>the shipping address of the company.</description>
         <externalId>false</externalId>
         <label>Shipping Address</label>
         <required>false</required>
