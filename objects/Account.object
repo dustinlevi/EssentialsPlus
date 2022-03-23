@@ -249,6 +249,7 @@
     <sharingModel>ReadWrite</sharingModel>
     <fields>
         <fullName>Asset_Type_4__c</fullName>
+        <description>something new to add</description>
         <externalId>false</externalId>
         <label>Asset Type #4</label>
         <required>false</required>

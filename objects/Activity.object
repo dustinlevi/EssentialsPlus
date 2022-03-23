@@ -122,6 +122,13 @@
     </searchLayouts>
     <sharingModel>Private</sharingModel>
     <fields>
+        <fullName>Email_Client__c</fullName>
+        <externalId>false</externalId>
+        <label>Email Client</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
         <fullName>Billing_Address__c</fullName>
         <externalId>false</externalId>
         <label>Billing Address</label>
