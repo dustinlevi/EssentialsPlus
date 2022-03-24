@@ -247,7 +247,7 @@
     </fields>
     <fields>
         <fullName>Preferred_Contact_Method__c</fullName>
-        <description>the contact info of the prospect</description>
+        <description>prospect contact info</description>
         <externalId>false</externalId>
         <label>Preferred Contact Method</label>
         <required>false</required>
