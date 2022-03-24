@@ -138,7 +138,7 @@
     </fields>
     <fields>
         <fullName>Asset_Type_2__c</fullName>
-        <description>new description</description>
+        <description>something new to add</description>
         <externalId>false</externalId>
         <label>Asset Type #2</label>
         <required>false</required>
