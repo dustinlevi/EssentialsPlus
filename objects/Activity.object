@@ -122,6 +122,13 @@
     </searchLayouts>
     <sharingModel>Private</sharingModel>
     <fields>
+        <fullName>Account_Source__c</fullName>
+        <externalId>false</externalId>
+        <label>Account Source</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
         <fullName>Github__c</fullName>
         <externalId>false</externalId>
         <label>Github</label>
@@ -165,7 +172,7 @@
     </fields>
     <fields>
         <fullName>Preferred_Email__c</fullName>
-        <description>the prospect&apos;s email</description>
+        <description>the preferred email of the prospect</description>
         <externalId>false</externalId>
         <label>Preferred Email</label>
         <length>200</length>
