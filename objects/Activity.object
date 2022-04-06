@@ -137,6 +137,7 @@
     </fields>
     <fields>
         <fullName>Email_Client__c</fullName>
+        <description>something new</description>
         <externalId>false</externalId>
         <label>Email Client</label>
         <required>false</required>
