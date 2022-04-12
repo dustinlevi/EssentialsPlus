@@ -122,6 +122,17 @@
     </searchLayouts>
     <sharingModel>Private</sharingModel>
     <fields>
+        <fullName>Rating__c</fullName>
+        <description>something different</description>
+        <externalId>false</externalId>
+        <label>Rating</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Account_Source__c</fullName>
         <externalId>false</externalId>
         <label>Account Source</label>
@@ -271,7 +282,7 @@
     </fields>
     <fields>
         <fullName>Company_Website__c</fullName>
-        <description>website of the prospect</description>
+        <description>NEW DESCRIPTION</description>
         <externalId>false</externalId>
         <label>Company Website</label>
         <required>false</required>
