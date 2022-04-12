@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
+        <fullName>Rating__c</fullName>
+        <description>something different</description>
+        <externalId>false</externalId>
+        <label>Rating</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Github__c</fullName>
         <externalId>false</externalId>
         <label>Github</label>
@@ -95,7 +106,7 @@
     </fields>
     <fields>
         <fullName>Company_Website__c</fullName>
-        <description>a new description</description>
+        <description>NEW DESCRIPTION</description>
         <externalId>false</externalId>
         <label>Company Website</label>
         <required>false</required>
