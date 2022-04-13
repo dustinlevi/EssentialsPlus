@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
+        <fullName>Shipping_Address__c</fullName>
+        <externalId>false</externalId>
+        <label>Shipping Address</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
         <fullName>Asset_Type_2__c</fullName>
         <description>something new to add</description>
         <externalId>false</externalId>
