@@ -222,7 +222,7 @@
     </fields>
     <fields>
         <fullName>Industry__c</fullName>
-        <description>industry types</description>
+        <description>NEW DESCRIPTION</description>
         <externalId>false</externalId>
         <label>Industry</label>
         <required>false</required>
