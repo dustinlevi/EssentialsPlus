@@ -126,6 +126,14 @@
     </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
     <fields>
+        <fullName>Billing_Address__c</fullName>
+        <externalId>false</externalId>
+        <label>Billing Address</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
         <fullName>Shipping_Address__c</fullName>
         <externalId>false</externalId>
         <label>Shipping Address</label>
@@ -152,6 +160,7 @@
     </fields>
     <fields>
         <fullName>Sales_Enablement_Tool__c</fullName>
+        <description>a new description</description>
         <externalId>false</externalId>
         <label>Sales Enablement Tool</label>
         <required>false</required>
