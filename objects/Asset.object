@@ -151,6 +151,7 @@
     </fields>
     <fields>
         <fullName>Shipping_Address__c</fullName>
+        <description>something new</description>
         <externalId>false</externalId>
         <label>Shipping Address</label>
         <required>false</required>
