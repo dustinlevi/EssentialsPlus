@@ -122,6 +122,13 @@
     </searchLayouts>
     <sharingModel>Private</sharingModel>
     <fields>
+        <fullName>Lead_Not_Active__c</fullName>
+        <externalId>false</externalId>
+        <label>Lead - Not Active</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
         <fullName>Rating__c</fullName>
         <description>something different</description>
         <externalId>false</externalId>

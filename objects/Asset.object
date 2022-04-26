@@ -176,7 +176,7 @@
     </fields>
     <fields>
         <fullName>Sales_Enablement_Tool__c</fullName>
-        <description>a new description</description>
+        <description>something new</description>
         <externalId>false</externalId>
         <label>Sales Enablement Tool</label>
         <required>false</required>
