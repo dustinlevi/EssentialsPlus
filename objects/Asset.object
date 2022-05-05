@@ -135,6 +135,7 @@
     </fields>
     <fields>
         <fullName>Data_com__c</fullName>
+        <description>something different</description>
         <externalId>false</externalId>
         <label>Data.com</label>
         <required>false</required>
