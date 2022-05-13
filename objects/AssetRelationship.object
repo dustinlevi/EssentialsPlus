@@ -2,6 +2,7 @@
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
         <fullName>Parent_Account__c</fullName>
+        <description>NEW ADDITION</description>
         <externalId>false</externalId>
         <label>Parent Account</label>
         <required>false</required>
