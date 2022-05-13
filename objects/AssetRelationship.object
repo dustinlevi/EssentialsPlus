@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
+        <fullName>Account_Number_2__c</fullName>
+        <externalId>false</externalId>
+        <label>Account Number #2</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Employee_Count__c</fullName>
+        <description>A new description</description>
+        <externalId>false</externalId>
+        <label>Employee Count</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
         <fullName>Parent_Account__c</fullName>
         <externalId>false</externalId>
         <label>Parent Account</label>
