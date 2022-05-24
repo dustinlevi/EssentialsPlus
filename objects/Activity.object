@@ -67,6 +67,7 @@
     <fields>
         <fullName>Sales_Enablement_Tool__c</fullName>
         <defaultValue>false</defaultValue>
+        <description>the type of SE tool.</description>
         <externalId>false</externalId>
         <label>Sales Enablement Tool?</label>
         <type>Checkbox</type>
@@ -144,6 +145,7 @@
     <fields>
         <fullName>Lead__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
+        <description>a new description</description>
         <externalId>false</externalId>
         <label>Lead - Last Active</label>
         <referenceTo>Lead</referenceTo>
