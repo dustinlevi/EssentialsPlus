@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
+        <fullName>Account_Source__c</fullName>
+        <description>a new description</description>
+        <externalId>false</externalId>
+        <label>Account Source</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Rating__c</fullName>
+        <externalId>false</externalId>
+        <label>Rating</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
         <fullName>No_of_Sales_Reps__c</fullName>
         <externalId>false</externalId>
         <label>No. of Sales Reps</label>
