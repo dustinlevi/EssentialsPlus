@@ -44,6 +44,7 @@
     </fields>
     <fields>
         <fullName>Number_of_Employees__c</fullName>
+        <description>a new description</description>
         <externalId>false</externalId>
         <label>Number of Employees</label>
         <required>false</required>
