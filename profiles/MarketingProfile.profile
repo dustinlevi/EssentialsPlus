@@ -7,6 +7,11 @@
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
+        <field>AuthorizationForm.Account_Source__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Event.Github__c</field>
         <readable>true</readable>
     </fieldPermissions>
