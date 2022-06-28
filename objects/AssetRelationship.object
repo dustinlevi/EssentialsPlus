@@ -70,7 +70,7 @@
     </fields>
     <fields>
         <fullName>Account_Number_2__c</fullName>
-        <description>a new description</description>
+        <description>something different</description>
         <externalId>false</externalId>
         <label>Account Number #2</label>
         <required>false</required>
