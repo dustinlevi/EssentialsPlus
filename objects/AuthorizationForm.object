@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
+        <fullName>Signature__c</fullName>
+        <externalId>false</externalId>
+        <label>Signature</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
         <fullName>E_Sign__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
@@ -10,6 +18,7 @@
     </fields>
     <fields>
         <fullName>Account_Source__c</fullName>
+        <description>something new</description>
         <externalId>false</externalId>
         <label>Account Source</label>
         <required>false</required>
