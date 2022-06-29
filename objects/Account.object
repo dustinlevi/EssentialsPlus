@@ -285,6 +285,7 @@
     </fields>
     <fields>
         <fullName>Billing_Address_3__c</fullName>
+        <description>the billing address for the company</description>
         <externalId>false</externalId>
         <label>Billing Address #3</label>
         <required>false</required>
