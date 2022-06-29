@@ -490,7 +490,7 @@
     </fields>
     <fields>
         <fullName>Preferred_Contact_Method__c</fullName>
-        <description>a new phone number for the prospect.</description>
+        <description>something new</description>
         <externalId>false</externalId>
         <label>Preferred Contact Method</label>
         <length>200</length>
