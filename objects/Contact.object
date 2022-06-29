@@ -10,6 +10,7 @@
     </fields>
     <fields>
         <fullName>Preferred_Contact_Method__c</fullName>
+        <description>something new</description>
         <externalId>false</externalId>
         <label>Preferred Contact Method</label>
         <required>false</required>
