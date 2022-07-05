@@ -11,6 +11,7 @@
     </fields>
     <fields>
         <fullName>Industry_2__c</fullName>
+        <description>a new addition</description>
         <externalId>false</externalId>
         <label>Industry #2</label>
         <required>false</required>
