@@ -11,6 +11,7 @@
     </fields>
     <fields>
         <fullName>Company_Website__c</fullName>
+        <description>a new addition</description>
         <externalId>false</externalId>
         <label>Company Website</label>
         <required>false</required>
