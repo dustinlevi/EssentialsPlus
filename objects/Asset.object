@@ -63,6 +63,7 @@
     </fields>
     <fields>
         <fullName>Asset_Type__c</fullName>
+        <description>something different.</description>
         <externalId>false</externalId>
         <label>Asset Type</label>
         <required>false</required>
